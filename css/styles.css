@@ -43,7 +43,7 @@ html {
   
 }
 .deathstar {
-  background: black url(../images/deathstar.png) no-repeat;
+  background: black url(../images/deathstar .png) no-repeat;
   width: 655px;
   height: 663px;
   position: absolute;
