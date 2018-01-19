@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  color: #a6eaff;
+  font-family: "Signika", serif;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+body {
+  background-color: #000000;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.content {
+  overflow-y: hidden;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.message {
+  margin: 40px;
+  width: 800px;
+}
+
+.darth-vader-link {
+  margin-top: 170px;
+  margin-right: 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.darth-vader {
+  width: auto;
+  height: 400px;
+  transform: rotate(10deg);
+}
+
+.death-star {
+  position: absolute;
+  bottom: -50%;
+  right: -20%;
+}
