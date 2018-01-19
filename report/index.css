@@ -43,6 +43,8 @@ h1, h2, h3 {
 
 .death-star {
   position: absolute;
-  bottom: -50%;
-  right: -20%;
+  bottom: -65%;
+  right: -10%;
+  width: 1100px;
+  height: auto;
 }
