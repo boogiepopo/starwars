@@ -23,8 +23,10 @@ h1, h2, h3 {
 }
 
 .message {
+  position: absolute;
+  left: -1000px;
   margin: 40px;
-  width: 800px;
+  /* width: 800px; */
 }
 
 .darth-vader-link {

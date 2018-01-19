@@ -1,8 +1,8 @@
 (async () => {
-  const BASE_API_URL = 'https://swapi.co/api'
+  const BASE_API_URL = 'https://insertrealapiurl'
 
   const getApiUrl = (path) =>
-    `${BASE_API_URL}${path}`
+    `${BASE_API_URL}${path}/?format=wookiee`
 
   const dom = {
     starship: document.getElementById('starship'),
@@ -16,10 +16,6 @@
       fetch(getApiUrl(`/planets/${dom.planet.innerHTML}`)).then(response => response.json()),
       fetch(getApiUrl(`/people/${dom.person.innerHTML}`)).then(response => response.json())
     ])
-
-    dom.starship.innerHTML = starship.name
-    dom.planet.innerHTML = planet.name
-    dom.person.innerHTML = person.name
   } catch (e) {
     alert('API request error')
   }
