@@ -51,6 +51,20 @@ html {
   right: 100px;
 }
 
+.welcome {
+  position: absolute;
+  width: 655px;
+  height: 663px;
+  bottom: 150px;  
+  left: 100px;
+  box-sizing: border-box;
+  color: #a6eaff;
+  font-family: "Signika", serif;
+  font-size: 30px;
+  font-weight: 300;
+  display: none;  
+}
+
 #wrapper {
   width: 500px;
   margin: auto;
@@ -81,8 +95,8 @@ html {
 }
 
 a {
-  background: #fff;
-  color: #000;
+  background: #000;
+  color: #a6eaff;
 }
 
 #intro {

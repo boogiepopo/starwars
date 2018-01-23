@@ -5,4 +5,5 @@ Crawl text intro
 
 * index.html include jquery and bootstrap resources via cdn. This is bad.
 * jquery / bootstrap resources accidentally make font of scrolling text have dark color.
-* style.css has wrong path for deathstar image. 
+* style.css has wrong path for deathstar image.
+* Fix so that the page shows text and link to the next page in the end 
