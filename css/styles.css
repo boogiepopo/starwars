@@ -63,7 +63,9 @@ body {
   left: 100px;
   box-sizing: border-box;
   color: #a6eaff;
-  font-family: "Signika", serif; 
+  font-family: "Signika", serif;
+  font-size: 30px;
+  font-weight: 300;  
 }
 
 .rebel-alliance-symbol {
