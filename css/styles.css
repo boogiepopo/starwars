@@ -43,12 +43,18 @@ html {
   
 }
 .deathstar {
-  background: black url(../images/deathstar .png) no-repeat;
+  background: black url(../images/deathstar.png) no-repeat;
   width: 655px;
   height: 663px;
   position: absolute;
   bottom: 150px;
   right: 100px;
+}
+
+.deathstar svg {
+  position: absolute;
+  left: 300px;
+  top: 300px;
 }
 
 .welcome {
@@ -154,6 +160,7 @@ a {
   font-size: 37px;
   text-align: justify;
   height: 100%;
+  color: #111;
 }
 
 /* Animation definitions 
