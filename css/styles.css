@@ -160,25 +160,8 @@ a {
   transform: translate3d(0, 840px, 0);
   line-height: 45px;
   text-align: justify;
+  font-size: 37px;
   height: 100%;
-}
-
-@media (min-width: 768px) {
-  .inner-txt {
-    font-size: 200%;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
-  .inner-txt {
-    font-size: 100%;
-  }
-}
-
-@media (max-width: 480px) {
-  .inner-txt {
-    font-size: 50%;
-  }
 }
 
 /* Animation definitions 
